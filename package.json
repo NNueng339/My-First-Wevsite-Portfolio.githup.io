@@ -1,6 +1,9 @@
 {
   "name": "my-package",
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
+    "start": "node index.js",
     "build": "babel src -d lib",
     "test": "jest"
   }

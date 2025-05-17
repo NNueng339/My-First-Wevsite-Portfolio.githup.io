@@ -1,0 +1,147 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #FFB6C1, #B0E0E6);
+    /* Pink and light blue gradient */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two-column layout */
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    ;
+    position: absolute;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    position: relative;
+    /* Keeping it relative for proper child positioning */
+    padding-top: 40px;
+    /* Adds space at the top for better alignment */
+}
+.profile-info h3 {
+    padding: 10px;
+    text-transform: uppercase;
+    /* Makes the title uppercase */
+}
+/* Profile image within .profile */
+.profile img {
+    /* Adjusted height for better visibility */
+    border-radius: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* Ensures the image is placed within the profile */
+    bottom: 10px;
+    width: 100%;
+    /* ให้รูปเต็ม container */
+    height: 100%;
+    /* เต็มความสูง container */
+    object-fit: cover;
+    /* ครอบเต็มโดยไม่เสียสัดส่วน */
+    display: block;
+    /* ป้องกันช่องว่างด้านล่าง */
+}
+
+
+
+.profile p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Section Titles */
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Faculty Goal, Skills, Education */
+section2 {
+    background-color: #d6b8b8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section1 {
+    background-color: #a0bba4;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-info h3 {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin: 15px; /* Adjust space between icon and text */
+}
+
+.skills {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.skills h3 {
+    padding: 10px;
+}
+
+.skills p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #242020;
+    margin: 10px 0;
+}
+
+.skills i {
+    font-size: 24px;
+    margin-left: 15px; /* Adjust space between icon and text */
+    color: #3498db;  /* Icon color */
+}
+
+.level {
+    font-size: 16px;
+    color: #777; /* Lighter color for skill levels */
+    font-weight: bold;
+    margin-left: 15px; /* Push the level text to the right */
+}
+.education h3 {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+.education p {
+    font-size: 18px;
+    color: #242020;
+    margin: 10px ;
+}
+.contact i {
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 15px; /* Adjust space between icon and text */
+    color: #3498db;  /* Icon color */
+}

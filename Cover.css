@@ -1,0 +1,69 @@
+/* Reset some basic styles */
+body {
+    user-select: none;  /* ป้องกันการเลือกข้อความ */
+}
+
+
+
+/* Portfolio Cover Styles */
+.portfolio-cover {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1557652/pexels-photo-1557652.jpeg?cs=srgb&dl=pexels-lukas-hartmann-304281-1557652.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Barcode Section */
+.barcode {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.barcode span {
+    display: block;
+}
+
+/* Title */
+.title h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Profile Image */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

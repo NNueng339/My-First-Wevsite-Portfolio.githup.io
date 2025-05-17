@@ -41,4 +41,36 @@ nav a {
 nav a:hover {
     color: #ad08df;
 }
+/* การปรับเปลี่ยนให้เหมาะสมกับขนาดหน้าจอเล็ก */
+@media (max-width: 768px) {
+    .details {
+        grid-template-columns: 1fr;  /* เปลี่ยนเป็นคอลัมน์เดียวสำหรับหน้าจอเล็ก */
+    }
 
+    .profile img {
+        max-width: 150px;  /* ปรับขนาดภาพสำหรับหน้าจอเล็ก */
+    }
+
+    .profile p {
+        font-size: 16px;
+    }
+
+    .details h3 {
+        font-size: 22px;
+    }
+
+    .details p {
+        font-size: 14px;
+    }
+}
+
+/* สำหรับหน้าจอขนาดเล็กมาก (มือถือ) */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;  /* ใช้ความกว้าง 90% สำหรับหน้าจอขนาดเล็ก */
+    }
+
+    .profile img {
+        max-width: 130px;  /* ขนาดภาพเล็กลงสำหรับหน้าจอมือถือ */
+    }
+}
